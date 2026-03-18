@@ -1,148 +1,189 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="initial-scale=1, width=device-width"/>
 
-    <!-- TODO: Open Graph 메타 태그를 설정하세요 -->
-    <!-- <meta property="og:title" content="페이지 제목" /> -->
-    <!-- <meta property="og:description" content="페이지 설명" /> -->
-    <!-- <meta property="og:image" content="./images/thumbnail.jpg" /> -->
+    <meta property="og:title" content="박민욱 | Today I Learn"/>
+    <meta property="og:description" content="현실적인 제약 속에서 최선의 해결책을 찾아가는 백엔드 개발자 박민욱의 TIL 페이지입니다."/>
+    <meta property="og:image" content="https://johnprk.github.io/web-today-i-learn/images/profile.jpg"/>
 
-    <title>Today I Learn</title>
-    <link rel="stylesheet" href="./css/main.css" />
+    <title>Today I Learn | 박민욱</title>
+    <link rel="stylesheet" href="./css/main.css"/>
     <script src="./js/index.js" defer></script>
-  </head>
-  <body>
-    <!-- 상단 내비게이션 -->
-    <nav class="top-nav">
-      <span class="nav-logo">My Page</span>
-      <ul class="nav-links">
+</head>
+<body>
+<!-- 상단 내비게이션 -->
+<nav class="top-nav">
+    <span class="nav-logo">박민욱.dev</span>
+    <ul class="nav-links">
         <li><a href="#about">자기소개</a></li>
         <li><a href="#gallery">갤러리</a></li>
         <li><a href="#works">인생 작품</a></li>
         <li><a href="#til">TIL</a></li>
-      </ul>
-    </nav>
+    </ul>
+</nav>
 
-    <!-- 프로필 히어로 -->
-    <section class="hero" id="about">
-      <div class="profile-card">
+<!-- 프로필 히어로 -->
+<section class="hero" id="about">
+    <div class="profile-card">
         <div class="profile-image">
-          <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+            <img src="./images/profile.jpg" alt="박민욱 프로필 사진"/>
         </div>
         <div class="profile-info">
-          <h1>닉네임</h1>
-          <p class="tagline">한 줄 소개를 작성해주세요.</p>
+            <h1>박민욱</h1>
+            <p class="tagline">현실적인 제약 속에서 최선의 해결책을 찾아가는 백엔드 개발자입니다. 기술적 완벽함보다 팀과 함께 이해할 수 있는 결정을 중요하게 생각합니다.</p>
         </div>
-      </div>
+    </div>
+</section>
+
+<main>
+    <!-- 자기소개 -->
+    <section class="content-section" id="about">
+        <h2>자기소개</h2>
+        <p>
+            안녕하세요, 백엔드 개발자 <strong>박민욱</strong>입니다.<br/>
+            새로운 기술을 배우고 적용하는 것을 좋아하지만, 무엇보다 지금 우리에게 '어떤 선택이 최선인지'를 항상 고민합니다.
+            주어진 시간과 자원 안에서 팀과 서비스에 더 나은 가치를 함께 만들어가는 것을 지향합니다.<br/><br/>
+            현재 Java / Spring 기반 백엔드 개발과 AWS 인프라 설계·운영 경험을 보유하고 있으며,
+            <a href="https://github.com/JohnPrk" target="_blank" rel="noopener noreferrer">GitHub</a>에서
+            그동안의 프로젝트와 코드를 확인할 수 있습니다.
+            궁금한 점은 <a href="mailto:uo3641493@gmail.com">uo3641493@gmail.com</a>으로 연락 주세요.
+        </p>
     </section>
 
-    <main>
-      <!-- 자기소개 -->
-      <section class="content-section">
-        <h2>자기소개</h2>
-        <p>자기소개를 작성해주세요.</p>
-        <!-- TODO: 소개 글 안에 블로그, GitHub 등 관련 링크를 <a> 태그로 연결하세요 -->
-      </section>
-
-      <!-- 기본 정보 -->
-      <section class="content-section" id="info">
+    <!-- 기본 정보 -->
+    <section class="content-section" id="info">
         <h2>기본 정보</h2>
-        <!-- TODO: 자신의 기본 정보를 표(<table>)로 정리하세요 -->
         <table class="info-table">
-          <tr>
-            <th>이름</th>
-            <td></td>
-          </tr>
-          <tr>
-            <th>MBTI</th>
-            <td></td>
-          </tr>
-          <tr>
-            <th>취미</th>
-            <td></td>
-          </tr>
-          <tr>
-            <th>좋아하는 음식</th>
-            <td></td>
-          </tr>
+            <tr>
+                <th>이름</th>
+                <td>박민욱</td>
+            </tr>
+            <tr>
+                <th>직군</th>
+                <td>백엔드 개발자</td>
+            </tr>
+            <tr>
+                <th>MBTI</th>
+                <td>INTJ</td>
+            </tr>
+            <tr>
+                <th>취미</th>
+                <td>클라이밍, 헬스, 음악 듣기</td>
+            </tr>
+            <tr>
+                <th>좋아하는 음식</th>
+                <td>닭발, 치킨, 피자</td>
+            </tr>
+            <tr>
+                <th>GitHub</th>
+                <td><a href="https://github.com/JohnPrk" target="_blank" rel="noopener noreferrer">github.com/JohnPrk</a></td>
+            </tr>
+            <tr>
+                <th>이메일</th>
+                <td><a href="mailto:uo3641493@gmail.com">uo3641493@gmail.com</a></td>
+            </tr>
         </table>
-      </section>
+    </section>
 
-      <!-- 나만의 갤러리 -->
-      <section class="content-section" id="gallery">
-        <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
+    <!-- 나만의 갤러리 -->
+    <section class="content-section" id="gallery">
+        <h2>조카를 소개합니다!</h2>
+        <p class="section-desc">세상에서 제일 귀여운 내 조카들</p>
         <div class="gallery-grid">
-          <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
-          <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
-          <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
+            <img src="./images/nephew-1.jpeg" alt="공원에서 뛰어노는 조카"/>
+            <img src="./images/nephew-2.jpeg" alt="밥 먹는 조카"/>
+            <img src="./images/nephew-3.jpeg" alt="장난감을 가지고 노는 조카"/>
+            <img src="./images/nephew-4.jpeg" alt="웃고 있는 조카"/>
+            <img src="./images/nephew-5.jpeg" alt="산책 중인 조카"/>
+            <img src="./images/nephew-6.jpeg" alt="책을 읽는 조카"/>
+            <img src="./images/nephew-7.jpeg" alt="낮잠 자는 조카"/>
+            <img src="./images/nephew-8.jpeg" alt="목욕하는 조카"/>
+            <img src="./images/nephew-9.jpeg" alt="가족과 함께한 조카"/>
         </div>
-      </section>
+    </section>
 
-      <!-- 나를 울린 인생 작품 -->
-      <section class="content-section" id="works">
+    <section class="content-section" id="works">
         <h2>나를 울린 인생 작품</h2>
-        <div class="works-list">
-          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
-          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
-          <article class="work-card">
-            <div class="work-thumbnail">
-              <!-- 작품 이미지 -->
-            </div>
-            <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
-            </div>
-          </article>
-        </div>
-      </section>
+        <ul class="works-list">
+            <li>
+                <article class="work-card">
+                    <div class="work-thumbnail">
+                        <iframe
+                                src="https://www.youtube.com/embed/Nbzsv_E0lMk?start=0"
+                                title="Muse - Live At Wembley Stadium 2007 (Full Concert Film)"
+                                allowfullscreen
+                        ></iframe>
+                    </div>
+                    <div class="work-info">
+                        <h3>Muse - Live At Wembley Stadium 2007 (Full Concert Film)</h3>
+                        <p>
+                            고등학교 2학년, 한창 드럼을 배울 때였습니다. 뮤즈를 좋아하던 친구의 PMP 너머로 흘러나온 이 음악은 제 세상을 완전히 뒤집어 놓았습니다. 주일마다 교회에 가고 착하게만 살던 내 안에 이토록 야생적이고 거친 자아가 살아있다는 걸 알게 했습니다.
+                        </p>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="work-card">
+                    <div class="work-thumbnail">
+                        <img src="./images/nietzsche.jpg" alt="차라투스트라는 이렇게 말했다 책 표지"/>
+                    </div>
+                    <div class="work-info">
+                        <h3>차라투스트라는 이렇게 말했다 — Friedrich Nietzsche</h3>
+                        <p>
+                            동정이나 핑계 따위는 개나 줘버리라고 말하는 듯한 이 책은, 펄펄 끓는 활화산 그 자체다. 적당히 세상과 타협하며 안주하려던 내 비겁하고 나약한 멘탈을 가차 없이 박살 냈다. 낙타처럼 남이 지워준 무거운 짐만 지고 헐떡이던 나를, 스스로 가치를 부수고 창조하는 거친 사자로 눈뜨게 만든 책. 핏속에 잠들어있던 수컷의 본능, 아니 더 강해지려는 독기 품은 결기를 멱살 잡고 끌어낸 내 인생을 가장 거칠게 두들겨 팬 바이블이다.
+                        </p>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
 
-      <!-- TIL (Today I Learned) -->
-      <section class="content-section" id="til">
+    <!-- TIL (Today I Learned) -->
+    <section class="content-section" id="til">
         <h2>TIL</h2>
         <p class="section-desc">오늘 새롭게 배운 것들을 기록합니다.</p>
 
         <!-- TIL 작성 폼 -->
         <form class="til-form" id="til-form">
-          <div class="form-group">
-            <label for="til-date">날짜</label>
-            <input type="date" id="til-date" name="date" required />
-          </div>
-          <div class="form-group">
-            <label for="til-title">제목</label>
-            <input type="text" id="til-title" name="title" placeholder="학습 주제를 입력하세요" required />
-          </div>
-          <div class="form-group">
-            <label for="til-content">내용</label>
-            <textarea id="til-content" name="content" placeholder="오늘 배운 내용을 정리해주세요" required></textarea>
-          </div>
-          <div class="form-actions">
-            <button type="submit">등록</button>
-            <button type="reset">초기화</button>
-          </div>
+            <div class="form-group">
+                <label for="til-date">날짜</label>
+                <input type="date" id="til-date" name="date" required/>
+            </div>
+            <div class="form-group">
+                <label for="til-title">제목</label>
+                <input type="text" id="til-title" name="title" placeholder="학습 주제를 입력하세요" required/>
+            </div>
+            <div class="form-group">
+                <label for="til-content">내용</label>
+                <textarea id="til-content" name="content" placeholder="오늘 배운 내용을 정리해주세요" required></textarea>
+            </div>
+            <div class="form-actions">
+                <button type="submit">등록</button>
+                <button type="reset">초기화</button>
+            </div>
         </form>
 
-        <!-- TIL 목록: 폼으로 등록하면 여기에 항목이 추가됩니다 -->
+        <!-- TIL 목록 -->
         <div class="til-list" id="til-list">
-          <!-- 아래는 예시 항목입니다. 자유롭게 수정하거나 삭제하세요 -->
-          <article class="til-item">
-            <time>2026-03-15</time>
-            <h3>HTML 시멘틱 태그</h3>
-            <p>header, nav, main, section, article, footer 등 시멘틱 태그의 역할과 사용법을 배웠다.</p>
-          </article>
+            <article class="til-item">
+                <time>2026-03-18</time>
+                <h3>HTML 시멘틱 태그</h3>
+                <p>header, nav, main, section, article, footer 등 시멘틱 태그의 역할과 사용법을 배웠다. 단순히 div로 감싸는 것보다 의미 있는 태그를 쓰는 것이 접근성과 SEO에 유리하다는 점이 인상적이었다.</p>
+            </article>
+            <article class="til-item">
+                <time>2026-03-17</time>
+                <h3>CSS Grid vs Flexbox</h3>
+                <p>1차원(행 또는 열) 레이아웃에는 Flexbox, 2차원(행과 열 동시) 레이아웃에는 Grid가 적합하다. 갤러리처럼 격자형 배치가 필요한 경우 grid-template-columns: repeat(3, 1fr)로 깔끔하게 처리할 수 있다.</p>
+            </article>
         </div>
-      </section>
+    </section>
 
-    </main>
+</main>
 
-    <footer>
-      <p>&copy; My Page</p>
-    </footer>
-  </body>
+<footer>
+    <p>&copy; 박민욱 | <a href="https://github.com/JohnPrk" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+</footer>
+</body>
 </html>
